@@ -27,3 +27,5 @@ jobs:
           file: Dockerfile
           context: .
           push: true
+          tag: |
+            pandeptwidyaop/adminer:latest
