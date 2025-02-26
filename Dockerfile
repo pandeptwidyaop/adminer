@@ -1,7 +1,6 @@
 FROM dockage/alpine-nginx-php-fpm:latest
-MAINTAINER Mohammad Abdoli Rad <m.abdolirad@gmail.com>
 
-ENV ADMINER_VERSION=4.7.1
+ENV ADMINER_VERSION=4.17.1
 
 ADD ./assets ${DOCKAGE_ETC_DIR}
 
